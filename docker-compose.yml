@@ -8,3 +8,5 @@ wordpress:
   image: wordpress
   links:
   - db:mysql
+  labels
+  - $test1=$host1
